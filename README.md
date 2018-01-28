@@ -14,13 +14,5 @@ This plugin requires the following minimum version of Binary Ninja:
 
  * release - 1.1.1038
 
-
-## Required Dependencies
-
-The following dependencies are required for this plugin:
-
-
-
 ## License
 This plugin is released under a [MIT](LICENSE) license.
-
