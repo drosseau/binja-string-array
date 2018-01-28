@@ -1,5 +1,6 @@
 # String array viewer (v1.0 alpha)
 Author: **Danny Rosseau**
+
 _View the strings in an array at a given address as a C variable_
 
 ## Description:
