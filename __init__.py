@@ -87,7 +87,6 @@ def get_string(br, nbytes, opts):
         return None
     prev_off = br.offset
     ptr = to_int(ptr, opts.endian)
-    binja.log.log_info("ptr is {}".format(hex(ptr)))
     if ptr == 0:
         return None
     br.seek(ptr)
