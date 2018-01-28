@@ -4,7 +4,7 @@ Author: **Danny Rosseau**
 _View the strings in an array at a given address as a C variable_
 
 ## Description:
-Enumerates the string pointers at a given address. The address is treated as if it were a `const char**`. In some cases your array might end with a `NULL` address, in which case you can put the string length as -1 and it will keep reading addresses until `NULL` is reached.
+Enumerates the string pointers at a given address. The address is treated as if it were a `const char**`. In some cases your array might end with a `NULL` address, in which case you can put the number of strings as -1 and it will keep reading addresses until `NULL` is reached.
 
 ![Using on the example binary](example-image.png)
 
