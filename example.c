@@ -54,14 +54,14 @@ int main(int argc, char* argv[]) {
 			printf("Aw that food doesn't exist :(\n");
 			exit(1);
 		}
-		printf("Wow! You got a %s, delicious!\n", food);
+		printf("I don't think the recipe calls for a %s...\n", food);
 	} else if (strncmp(get_from, "names", 5) == 0) {
 		const char* name = get_name(idx);
 		if (name == NULL) {
 			printf("Aw that name doesn't exist :(\n");
 			exit(1);
 		}
-		printf("Hey %s how are you doin ;)\n", name);
+		printf("What kind of name is %s?\n", name);
 	} else {
 		printf("We don't know anything about %s here\n", get_from);
 		exit(1);
