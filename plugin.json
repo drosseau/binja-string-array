@@ -6,7 +6,7 @@
 		"description": "View the strings in an array at a given address as a C variable",
 		"longdescription": "Enumerates the string pointers at a given address. The address is treated as if it were a `const char**`. In some cases your array might end with a `NULL` address, in which case you can put the number of strings as -1 and it will keep reading addresses until `NULL` is reached.",
 		"dependencies": {},
-		"version": "1.0 alpha",
+		"version": "1.0",
 		"author": "Danny Rosseau",
 		"minimumBinaryNinjaVersion": {
 			"release": "1.1.1038"
